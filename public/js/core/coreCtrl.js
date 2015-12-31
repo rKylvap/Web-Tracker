@@ -13,4 +13,4 @@ CoreCtrl.$inject = _dependencies;
 
 _extendedDependencies.push(CoreCtrl);
 
-angular.module('electronAngularDemo').controller('coreCtrl', _extendedDependencies)
+angular.module('ngApp').controller('coreCtrl', _extendedDependencies)

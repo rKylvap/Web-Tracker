@@ -13,4 +13,4 @@ AboutCtrl.$inject = _dependencies;
 
 _extendedDependencies.push(AboutCtrl);
 
-angular.module('electronAngularDemo').controller('aboutCtrl', _extendedDependencies);
+angular.module('ngApp').controller('aboutCtrl', _extendedDependencies);

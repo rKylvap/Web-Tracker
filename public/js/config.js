@@ -1,5 +1,5 @@
 angular.
-    module('electronAngularDemo').
+    module('ngApp').
     config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
     $urlRouterProvider.otherwise("/");
